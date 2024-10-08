@@ -1,0 +1,159 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e5d5;
+    text-align: center;
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #ad906b;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style pour la bannière */
+#banner img {
+    width: 100%;
+    height: 500px;
+}
+
+/* Menu de navigation */
+nav {
+    background-color: #c2a382;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* Section des formulaires */
+#form {
+    padding: 20px;
+    background-color: #e0d2b9;
+    border: 1px solid #ad906b;
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#form h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#form label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#form input, #form select, #form button {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#form button {
+    background-color: #ad906b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #8c7253;
+}
+
+/* Galerie d'images */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-gallery img {
+    border: 2px solid #ad906b;
+    width: 200px;
+    height: 200px;
+}
+
+/* Section article */
+#article {
+    padding: 20px;
+    background-color: #e0d2b9;
+    border: 1px solid #ad906b;
+    width: 60%;
+    margin: 20px auto;
+}
+
+#article h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#article img {
+    margin-bottom: 15px;
+}
+
+#article ul {
+    text-align: left;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+#article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#article table, th, td {
+    border: 1px solid black;
+}
+
+#article th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Pied de page */
+footer {
+    background-color: #ad906b;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
